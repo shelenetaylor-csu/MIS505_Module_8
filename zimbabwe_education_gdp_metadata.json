@@ -1,0 +1,25 @@
+{
+  "dataset": "Zimbabwe Primary Enrollment and GDP per Capita (2001-2020)",
+  "description": "A cleaned dataset containing annual primary school enrollment and GDP per capita for Zimbabwe from 2001 through 2020.",
+  "sources": {
+    "education": "United Nations education dataset",
+    "gdp": "World Bank World Development Indicators (WDI)"
+  },
+  "attributes": [
+    {
+      "column_name": "Year",
+      "data_type": "integer",
+      "description": "Calendar year for the observation."
+    },
+    {
+      "column_name": "Primary Enrollment",
+      "data_type": "float",
+      "description": "Estimated number of students enrolled in primary education in Zimbabwe for the given year."
+    },
+    {
+      "column_name": "GDP",
+      "data_type": "float",
+      "description": "Gross Domestic Product (GDP) per capita in current U.S. dollars for Zimbabwe for the given year."
+    }
+  ]
+}
